@@ -1,0 +1,49 @@
+.book-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 20px;
+}
+
+.book-row {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.book-card {
+  width: 300px; /* Adjust card width as needed */
+}
+
+.card {
+  color: blueviolet;
+  background-color: rgb(244, 242, 254);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgb(244, 242, 254);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-img {
+  max-width: 100px;
+  border-radius: 2px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}

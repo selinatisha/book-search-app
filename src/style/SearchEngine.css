@@ -1,0 +1,44 @@
+.bookForm {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 auto;
+}
+.bookForm input {
+  font-family: Futura, san serif;
+  padding: 15px;
+  width: 50%;
+  max-width: 450px;
+  border-radius: 10px;
+  color: rgb(251, 86, 242);
+  background-color: rgb(244, 242, 254);
+  border: var(--secondary-color);
+  height: 25px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border-radius: 10px;
+  border: none;
+  color: darkviolet;
+  background-color: var(--secondary-color);
+}
+/* SearchEngine.css */
+
+.form-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-spinner {
+  margin-top: 10px;
+  font-size: 2em;
+  color: blueviolet;
+}
