@@ -64,11 +64,7 @@ h1 {
 h2 {
   font-family: "Futura", sans-serif;
 }
-h3 {
-  background-color: var(--third-color);
-  border: 10px solid var(--third-color);
-  border-radius: 10px;
-}
+
 b.bold {
   text-align: center;
 }
@@ -134,8 +130,8 @@ img {
 }
 footer {
   padding-top: 50px;
-  padding-bottom: 150px;
-  background-color: var(--third-color);
+  padding-bottom: 200px;
+  background-image: url("./style/Dark-Footer-Library.jpg");
 }
 
 .about-img {
